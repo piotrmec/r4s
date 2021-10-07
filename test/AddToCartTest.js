@@ -5,7 +5,7 @@ const { Options } = require('selenium-webdriver/chrome');
 /**
  * this prestashop is slow!!! breaks without sleeps, sorry. 
  */
-describe('HomepageTest', () => {
+describe('Add to cart test', () => {
     // TODO: browserstack?
     // const driver = new Builder().forBrowser('firefox').build();
     const driver = new Builder().usingServer().withCapabilities({ 'browserName': 'chrome' }).build();
